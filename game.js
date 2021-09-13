@@ -39,7 +39,7 @@ function resultadoPartida(){
     if(escolhaMinha.innerText === 'Papel' && escolhaPc.innerText === 'Pedra'){
         resultado.innerText = 'Você Ganhou!'
     }
-    if(escolhaMinha.innerText === 'Tesoura' && escolhaPc.innerText === 'Tesoura'){
+    if(escolhaMinha.innerText === 'Tesoura' && escolhaPc.innerText === 'Papel'){
         resultado.innerText = 'Você Ganhou!'
     }
     if(escolhaMinha.innerText === 'Pedra' && escolhaPc.innerText === 'Papel'){
